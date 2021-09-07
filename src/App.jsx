@@ -54,7 +54,6 @@ function editList(id) {
   const editedList = [...state].map((value) => {});
 }
 
-//on change pe input (event target)
 return (
   <div className="App">
     <header className="App-header">
