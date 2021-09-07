@@ -6,11 +6,17 @@ function ListItems(props) {
   if (!props.list) return null;
   return (
     <ul className="list-Items">
-      {props.list.map((item) => {
+      {props.list.map((item, index) => {
+        const className = item.marked ? "item-text--marked" : "item-text";
         return (
-          <li key={item}>
-            <div className="item-text">{item}</div>
-            <EditItems />
+          <li key={item.id}>
+            <div
+              className={className}
+              onDoubleClick={() => props.checkList(item.id)}
+            >
+              {item.value}
+            </div>
+            <EditItems removeItem={() => props.removeItem(item.id)} />
           </li>
         );
       })}

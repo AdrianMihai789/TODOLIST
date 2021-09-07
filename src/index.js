@@ -4,6 +4,19 @@ import "./index.css";
 import App from "./App.jsx";
 import reportWebVitals from "./reportWebVitals";
 
+<body>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  />
+  <div id="root"></div>
+</body>;
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

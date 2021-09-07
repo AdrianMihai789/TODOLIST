@@ -1,0 +1,23 @@
+/* .edit-items {
+  border: 2px solid black;
+  border-radius: 8px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+} */
+
+.edit-items {
+  font-size: 14px;
+}
+.edit-items .edit-items__button {
+  border: 1px solid black;
+  border-radius: 10px;
+  color: yellow;
+  font-size: 10px;
+  margin-left: 12px;
+}
+.edit-items .edit-items__remove {
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 10px;
+  color: wheat;
+  margin-left: 2px;
+}

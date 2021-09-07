@@ -1,0 +1,9 @@
+.add-items__button {
+  color: white;
+  background-color: darkcyan;
+  font-size: 14px;
+  margin-left: 1px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 80px;
+}
